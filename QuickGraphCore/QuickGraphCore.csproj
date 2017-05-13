@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>QuickGraph</RootNamespace>
+    <AssemblyName>QuickGraph</AssemblyName>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>2.0.0</Version>
+    <Description>Generic Graph Data Structures and Algorithms for .NET</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="quickgraph.banner.png" />
+    <EmbeddedResource Include="quickgraph.png" />
+    <EmbeddedResource Include="Serialization\graphml-structure.xsd" />
+    <EmbeddedResource Include="Serialization\graphml.dtd" />
+    <EmbeddedResource Include="Serialization\graphml.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

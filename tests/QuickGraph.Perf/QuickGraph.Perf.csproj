@@ -111,10 +111,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\QuickGraph\QuickGraph.csproj">
-      <Project>{a9a5c115-0680-44b3-a87e-5ecf4c93814e}</Project>
-      <Name>QuickGraph</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\tests\QuickGraph.Tests\QuickGraph.Tests.csproj">
       <Project>{61df76e1-de2b-4df1-ad5f-89939ab06693}</Project>
       <Name>QuickGraph.Tests</Name>
